@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/neromaycry/zhihu-daily-server/issues"
   },
-  "homepage": "https://github.com/neromaycry/zhihu-daily-server#readme"
+  "homepage": "https://github.com/neromaycry/zhihu-daily-server#readme",
+  "devDependencies": {
+    "restify": "^4.3.0",
+    "superagent": "^3.5.2"
+  }
 }
