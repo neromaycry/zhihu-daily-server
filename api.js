@@ -3,6 +3,7 @@ var request = require('superagent');
 var root = 'http://news-at.zhihu.com/api/4';
 
 var _api_base = function (req, res, next, url, success, failure) {
+    // 处理跨域问题
     res.setHeader('Access-Control-Allow-Origin', '*');
     request('GET', root + url)
         .accept('json')
